@@ -1,6 +1,26 @@
 @use '@shawnsandy/first-paint/src/components/reset.scss';
 @use '@shawnsandy/first-paint/src/styles/cover-page.scss';
 
-.hero_banner {
+header {
   background-image: url("images/diverseherobanner.png") !important;
+  width: 80% !important;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  .wrapper {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: calc(50rem / 16) 0;
+
+    &-content {
+      // position: absolute;
+      // bottom: 0;
+      // max-width: 100%;
+    }
+  }
 }
