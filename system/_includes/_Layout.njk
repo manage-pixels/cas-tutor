@@ -53,7 +53,7 @@
     <!-- nav -->
     {% include "partials/nav.njk" %} {% endblock %}
     <!-- cover -->
-    <header>{% block cover %} {% endblock %}</header>
+    <header class="page-{{ page.fileSlug or 'home' }} main_banner" >{% block cover %} {% endblock %}</header>
     <!-- content -->
     {% block content %}
     {{ content | safe }}

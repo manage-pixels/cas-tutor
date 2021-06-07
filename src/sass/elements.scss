@@ -10,9 +10,11 @@ a[role="button"] > em {
 }
 
 header > section[role="banner"] {
+
   @media (min-width: 980px) {
     max-width: 70%;
   }
+
 }
 
 strong {
@@ -39,4 +41,12 @@ nav {
   @media (min-width: 980px) {
     //align-items: center;
   }
+}
+.page-main.main_banner{
+   background-image: url("/images/main_banner2.png") !important;
+   width: 100vw !important;
+   margin: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
 }
