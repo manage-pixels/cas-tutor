@@ -50,3 +50,41 @@ nav {
    background-size: cover;
    background-position: center center;
 }
+h5{
+
+  text-align: center;
+  font-variant: small-caps;
+}
+.feature{
+ font-size: .95rem;
+  padding: 1rem;
+}
+.feature_list {
+font-size: .85rem;
+paddding: left 1.5rem;
+}
+.heart {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.page-about.main_banner {
+  background-image: url("/images/about_us.hero.png") !important;
+  width: 100vw !important;
+  height: 25vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.about_p{
+  font-size: .8rem;
+  padding-right: 2rem;
+  }
+  .box-left{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+  }
+h4
+{font-variant: small-caps;
+font-size:1.5rem;}
