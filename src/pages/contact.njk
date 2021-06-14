@@ -2,18 +2,23 @@
 title: Contact Us
 scripts: ["/js/min/form.js"]
 eleventyNavigation:
-  key: Contact Us
-  order: 5
+  key: Resources
+  order: 2
 ---
 
-<h4>Contact Info</h4>
+<section class="resource_card">
+  <div role="list">
+    <div role="listitem" class="mission"><p>1</p>
+      </div>
 
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut delectus
-  accusamus commodi officia fugit sequi? Quisquam deleniti, atque natus
-  inventore exercitationem voluptatem eius facilis maxime itaque, esse molestias
-  recusandae.
-</p>
+    <div role="listitem" class="mission">
+      <p>2</p>
+    </div>
+
+    <div role="listitem" class="mission"> <p>3</p>
+      </div>
+    </div>
+</section>
 
 {% if env.form_provider == "netlify" %}
 <div>{% include 'partials/contact.njk' %}</div>
