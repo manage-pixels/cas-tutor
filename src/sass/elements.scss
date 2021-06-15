@@ -63,7 +63,7 @@ h4{
 font-size: .85rem;
 paddding: left 1.5rem;
 }
-.heart {
+.feat_icon{
  display: block;
  margin-left: auto;
  margin-right: auto;
@@ -83,6 +83,22 @@ paddding: left 1.5rem;
   padding-right: 2rem;
   }
 
-h4
-{font-variant: small-caps;
-font-size:1.5rem;}
+h6
+{font-variant:small-caps;
+font-size:1rem;
+text-align:center;}
+
+.resource_logo{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.resource_card{
+    border: 1px solid #faf7f7;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    box-shadow: 5px 5px #f3f2f7;
+  }
+
+
