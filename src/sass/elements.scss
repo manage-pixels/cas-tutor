@@ -61,7 +61,7 @@ h4{
 }
 .feature_list {
 font-size: .85rem;
-paddding: left 1.5rem;
+
 }
 .feat_icon{
  display: block;
@@ -79,8 +79,10 @@ paddding: left 1.5rem;
 }
 
 .about_p{
-  font-size: .8rem;
-  padding-right: 2rem;
+  font-size-adjust: grey;
+  font-size: small;
+
+
   }
 
 h6
@@ -92,6 +94,7 @@ text-align:center;}
  display: block;
  margin-left: auto;
  margin-right: auto;
+ padding-bottom: 3rem;
 }
 .resource_card{
     border: 1px solid #faf7f7;
@@ -99,6 +102,9 @@ text-align:center;}
     margin-top: 2px;
     margin-bottom: 2px;
     box-shadow: 5px 5px #f3f2f7;
+    font-size: medium;
   }
-
+.resource_title{
+  text-shadow: 2px 2px 5px #c9c1c1;
+}
 
