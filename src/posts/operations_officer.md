@@ -1,7 +1,8 @@
 ---
-title: Meet Ginger Yang
+title: Ginger Yang
+image: gingerbw.png
 date: 2021-08-01
-summary: Operations Office 2021 to 2021
+summary: Operations Officer 2021 to 2022
 ---
 
 ###

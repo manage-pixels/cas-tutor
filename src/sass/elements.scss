@@ -42,7 +42,7 @@ nav {
     //align-items: center;
   }
 }
-.page-main.main_banner{
+.page-home.main_banner{
    background-image: url("/images/mainbanner.png") !important;
    width: 100vw !important;
    height:30vw !important;
@@ -53,7 +53,7 @@ nav {
 }
 h4{
 
-  font-variant: small-caps;
+
 }
 .feature{
  font-size: .95rem;
@@ -71,7 +71,7 @@ font-size: .85rem;
 .page-about.main_banner {
   background-image: url("/images/about_us.hero.png") !important;
   width: 100vw !important;
-  height: 25vw;
+  height: 30vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
