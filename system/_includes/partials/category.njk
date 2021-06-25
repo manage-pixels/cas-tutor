@@ -4,6 +4,9 @@
     Posted: {{ content.date.toUTCString() }}
     <!-- Posted: {{ hlp.11ty.formatDate(content.date.toUTCString()) }} -->
   </time>
+  {% if content.data.image %}
+  <img src="/images/{{ content.data.image }}" />
+  {% if endif %}
   <h3 id="{{ content.data.title | slug }}">
     <a href="{{ content.url }}">{{ content.data.title }}</a>
   </h3>
