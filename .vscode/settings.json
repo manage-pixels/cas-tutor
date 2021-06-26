@@ -15,6 +15,7 @@
   "workbench.tree.indent": 4,
   "xd.globalEditor": true,
   "conventionalCommits.scopes": [
-    "scss"
+    "scss",
+    "custom category page w/grid"
   ]
 }
