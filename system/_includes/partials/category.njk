@@ -1,20 +1,20 @@
 {% for content in collections[category] | reverse %}
-<article>
-    <h3 id="{{ content.data.title | slug }}">
+  <article>
 
-  {% if content.data.image %}
-  <img src="/images/{{ content.data.image }}" />
-  {% if endif %}
-  <h3 id="{{ content.data.title | slug }}">
-    <a href="{{ content.url }}">{{ content.data.title }}</a>
-  </h3>
-  <img src ="/images/{{content.data.image}}" />
-  <p>{{ content.data.summary }}</p>
-  <footer>
-    <a href="{{ content.url }}" role="button">
-      <em>Continue reading</em>
-    </a>
-  </footer>
-  <hr />
-</article>
+    {% if content.data.image %}
+      <div>
+        <img src="/images/{{ content.data.image }}"/>
+      </div>
+    {% endif %}
+    <h4 id="{{ content.data.title | slug }}">
+      <a href="{{ content.url }}">{{ content.data.title }}</a>
+    </h4>
+    <p>{{ content.data.summary }}</p>
+    <footer>
+      <a href="{{ content.url }}" role="button">
+        <em>Continue reading</em>
+      </a>
+    </footer>
+    <hr/>
+  </article>
 {% endfor %}
