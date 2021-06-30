@@ -1,8 +1,9 @@
 ---
+image: question.png
 title: Question and Answer
-date: 2021-02-23T00:16:11.432Z
 author: Shasa Sandy
 summary: Answers to Frequently asked questions
+tags: News
 ---
 
 ![cover-img](/img/aem-pr-request.jpg)

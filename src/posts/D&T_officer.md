@@ -1,6 +1,6 @@
 ---
 title: Lila Hinds
-date: 2021-08-01
+image: lila.png
 summary: "Design and Technology Officer 2021 to 2022 "
 tags: Volunteers
 ---

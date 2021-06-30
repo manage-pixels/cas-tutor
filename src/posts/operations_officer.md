@@ -1,6 +1,6 @@
 ---
 title: Ginger Yang
-image: gingerbw.png
+image: ginger.png
 date: 2021-08-01
 summary: Operations Officer 2021 to 2022
 tags: Volunteers
