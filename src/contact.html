@@ -1,0 +1,24 @@
+---
+eleventyNavigation:
+  key: Contact
+  order: 4
+---
+<h4>Contact Info</h4>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut delectus
+  accusamus commodi officia fugit sequi? Quisquam deleniti, atque natus
+  inventore exercitationem voluptatem eius facilis maxime itaque, esse molestias
+  recusandae.
+</p>
+{% if env.form_provider == "netlify" %}
+<div>{% include 'partials/contact.njk' %}</div>
+{% elif env.form_provider == "web3forms" %}
+<div>{% include 'partials/webform-contact.njk' %}</div>
+{% else %}
+<hr />
+<p>
+  Thanks you message, feedback, questions or suggestions, someone form our team
+  will review your email and respond as soon as possible.
+</p>
+<hr />
+{% endif %
