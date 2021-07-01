@@ -1,6 +1,6 @@
 ---
 image: question.png
-title: Question and Answer
+title: "Q" and "A" Time!
 author: Shasa Sandy
 summary: Answers to Frequently asked questions
 tags: News

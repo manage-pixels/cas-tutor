@@ -5,16 +5,15 @@
         {% if content.data.image %}
           <img src="/images/{{ content.data.image }}"/>
         {% endif %}
-        <h3 id="{{ content.data.title | slug }}">
+        <h4 id="{{ content.data.title | slug }}">
           <a href="{{ content.url }}">{{ content.data.title }}</a>
-        </h3>
+        </h4>
         <p>{{ content.data.summary }}</p>
         <footer>
           <a href="{{ content.url }}" role="button">
             <em>Continue reading</em>
           </a>
         </footer>
-        <hr/>
       </article>
     </div>
   {% endfor %}

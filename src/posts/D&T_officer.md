@@ -1,7 +1,7 @@
 ---
 title: Lila Hinds
 image: lila.png
-summary: "Design and Technology Officer 2021 to 2022 "
+summary: " Website Administrator 2021 to 2022 "
 tags: Volunteers
 ---
 ### Art, Design and Technology
