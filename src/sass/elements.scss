@@ -70,6 +70,24 @@ padding-left: 3rem;
  margin-right: auto;
 }
 .page-about.main_banner {
+  background-image: url("/images/story1.jpg") !important;
+  width: 100vw !important;
+  height: 30vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.page-resources.main_banner {
+  background-image: url("/images/resource.png") !important;
+  width: 100vw !important;
+  height: 30vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.page-contact.main_banner {
   background-image: url("/images/about_us.hero.png") !important;
   width: 100vw !important;
   height: 30vw;
@@ -111,4 +129,8 @@ text-align:center;}
 .fb-page{
   padding-bottom: 1rem;
 
+}
+.contact_form{
+  background-color: #f7f9f9e1;
+  padding: 3rem;
 }
