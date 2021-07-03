@@ -45,7 +45,7 @@ nav {
     height:5rem;
     width: 100%;
     padding-left: 6rem;
-    padding-right: 2rem;
+    padding-right: rem;
   }
 }
 .page-home.main_banner{
@@ -139,4 +139,8 @@ text-align:center;}
 .contact_form{
   background-color: #f7f9f9e1;
   padding: 3rem;
+}
+.social_media{
+position: relative;
+padding-left: 32rem;
 }
