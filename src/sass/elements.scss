@@ -39,7 +39,13 @@ strong {
 
 nav {
   @media (min-width: 980px) {
-    //align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    height:5rem;
+    width: 100%;
+    padding-left: 6rem;
+    padding-right: 2rem;
   }
 }
 .page-home.main_banner{
@@ -70,7 +76,7 @@ padding-left: 3rem;
  margin-right: auto;
 }
 .page-about.main_banner {
-  background-image: url("/images/story1.jpg") !important;
+  background-image: url("/images/story1.png") !important;
   width: 100vw !important;
   height: 30vw;
   margin: auto;
@@ -81,7 +87,7 @@ padding-left: 3rem;
 .page-resources.main_banner {
   background-image: url("/images/resource.png") !important;
   width: 100vw !important;
-  height: 30vw;
+  height: 25vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,7 +96,7 @@ padding-left: 3rem;
 .page-contact.main_banner {
   background-image: url("/images/about_us.hero.png") !important;
   width: 100vw !important;
-  height: 30vw;
+  height: 25vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;

@@ -10,30 +10,17 @@
       </h5>
     </div>
     <div>
-      <!-- <h6 id="navigate">Navigate</h6> -->
-      <span>
-         {% set navPages = collections.all | eleventyNavigation %}
-        <ul>
-          {%- for entry in navPages %}
-          <li>
-            <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-          </li>
-          {%- endfor %}
-        </ul>
-      </span>
+      <span></span>
     </div>
   </section>
   <hr>
   <section>
     <p>
-      Copyright &copy; {{ hlp.11ty.year() }} {{ settings.author.name }} All rights reserved
+      Copyright &copy; {{ hlp.11ty.year() }}
+      {{ settings.author.name }} All rights reserved
     </p>
   </section>
   {% if env.node_env == 'development' %}
-  <div style="text-align: center;">
-    <p>
-     NODE ENV {{env.node_env}}
-    </p>
-  </div>
+    <div style="text-align: center;"></div>
   {% endif %}
 </footer>
