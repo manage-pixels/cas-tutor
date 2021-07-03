@@ -44,8 +44,8 @@ nav {
     background-color: #ffffff;
     height:5rem;
     width: 100%;
-    padding-left: 6rem;
-    padding-right: rem;
+    padding-left: 12rem;
+    padding-right:10rem;
   }
 }
 .page-home.main_banner{
@@ -142,5 +142,8 @@ text-align:center;}
 }
 .social_media{
 position: relative;
-padding-left: 32rem;
+padding-left: 40rem;
+}
+.icon{
+  padding-right:6px;
 }
