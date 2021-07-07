@@ -4,7 +4,7 @@
   role="navigation"
   aria-label="Main navigation"
   data-nav>
-    <section data-show-mobile role="region" aria-label="Close nav">
+  <section data-show-mobile role="region" aria-label="Close nav">
     <a href="#" data-sidebar-button>
       <span>
         <svg
@@ -12,9 +12,9 @@
           viewBox="0 0 24 24"
           width="24"
           height="24">
-          <path fill="none" d="M0 0h24v24H0z" />
+          <path fill="none" d="M0 0h24v24H0z"/>
           <path
-            d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" />
+            d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/>
         </svg>
       </span>
     </a>
@@ -29,32 +29,33 @@
         </strong>
       </li>
       {%- for entry in navPages %}
-      <li>
-        <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
+        <li>
+          <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
           %}>{{ entry.title }}</a>
-      </li>
+        </li>
       {%- endfor %}
       <li>
         <hr>
       </li>
       {% if env.developer_mode %}
-      {% set docs = collections.developer | reverse %}
-      <li>
-        <strong>
-          <a href="/developers">DEVELOPER DOCS</a>
-        </strong>
-      </li>
-      {%- for doc in docs %}
-      <li>
-        <a href="{{ doc.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
+        {% set docs = collections.developer | reverse %}
+        <li>
+          <strong>
+            <a href="/developers">DEVELOPER DOCS</a>
+          </strong>
+        </li>
+        {%- for doc in docs %}
+          <li>
+            <a href="{{ doc.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
           %}>
-          {{ doc.data.title }}
-        </a>
-      </li>
-      {%- endfor %}
-      <li>
-        <hr>
-      </li>
+              {{ doc.data.title }}
+              <p>here</p>
+            </a>
+          </li>
+        {%- endfor %}
+        <li>
+          <hr>
+        </li>
       {% endif %}
     </ul>
   </section>
