@@ -27,18 +27,8 @@
       {{css | cssmin | safe}}
     </style>
     <!-- custom stylesheets -->
-    <link
-      rel="stylesheet"
-      href="/css/styles.css"
-      rel="stylesheet"
-      media="all"
-    />
-    <link
-      rel="stylesheet"
-      href="/css/elements.css"
-      rel="stylesheet"
-      media="all"
-    />
+    <link rel="stylesheet" href="/css/styles.css" media="all" />
+    <link rel="stylesheet" href="/css/elements.css" media="all" />
     {% for styles in settings.styles %}
     <link href="{{ styles }}" rel="stylesheet" media="all" />
     {% endfor %} {% if stylesheets %} {% for style in stylesheets %}
@@ -79,7 +69,7 @@
     <script src="{{ src }}"></script>
     {% endfor %} {% endif %}
     <!-- recaptcha -->
-    {{ recaptcha }}
+
     <script>
       var chatbox = document.getElementById("fb-customer-chat");
       chatbox.setAttribute("page_id", "106810984626293");
