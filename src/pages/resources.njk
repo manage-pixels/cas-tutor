@@ -4,7 +4,10 @@ eleventyNavigation:
   key: Resources
   order: 2
 ---
-
+<div>
+  <h5 class="about_p"> More helpful tools for students</h5>
+  <p>Apps are powerful tools that can help students on their education journey. We have compiled a list of apps that are either free or have useful feature to assist students.</p>
+</div>
 <section >
   <div role="list">
     <div role="listitem" class="resource_card">
@@ -116,6 +119,7 @@ eleventyNavigation:
                                                 <p class="about_p">EdX offers free online courses from world’s top universities including ‘Harvard University, MIT,
     UC Berkeley, Tsinghua University, Microsoft, Linux, The Smithsonian and more. Courses cover different topics like computer science,
      engineering, history, psychology, nutrition, big data, statistics and hundreds more.’
+
      </p>
                                               </div>
                                               <div role="listitem" class="resource_card">
@@ -129,7 +133,9 @@ eleventyNavigation:
                                                   </div>
                                                 </div>
                                               </section>
-
+                                              <p>
+                                                <em> Do you have anny suggestions for an app or just a comment? Talk to us and fill out the form below</em>
+                                              </p>
                                               {% if env.form_provider == "netlify" %}
                                                 <div>{% include 'partials/contact.njk' %}</div>
                                               {% elif env.form_provider == "web3forms" %}
