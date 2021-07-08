@@ -1,17 +1,15 @@
 {
   "title": "CAS Tutor",
-  "subtitle": "Lightweight, Fast, Accessible, Inclusive",
   "url": "https://proideas.dev/",
-  "description": "A minimalist UI Toolkit for building responsive, performance driven, accessibility first websites",
   "feed": {
-    "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
+    "subtitle": "Springstead High School Peer Tutors, A free student resource",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://proideas.dev/"
   },
   "author": {
-    "name": "Shawn Sandy",
-    "email": "shawnsandy@proideas.dev"
+    "name": "Design + Function",
+    "email": "castutors.springstead@gmail.com"
   },
   "styles": [],
   "scripts": [

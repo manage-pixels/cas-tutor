@@ -1,0 +1,28 @@
+---
+layout: page.njk
+title: Contact Us
+scripts: ["/js/min/form.js"]
+showRecaptcha: true,
+eleventyNavigation:
+  key: Contact
+  order: 4
+---
+<h4 class="contact_form"> Welcome!</h4>
+<div class="contact_form">
+<p>
+  Hi, have a question or a suggestion, please fill out the form below. We want to hear from you!
+  <hr/>
+</p>
+{% if env.form_provider == "netlify" %}
+<div>{% include 'partials/contact.njk' %}</div>
+{% elif env.form_provider == "web3forms" %}
+<div>{% include 'partials/webform-contact.njk' %}</div>
+{% else %}
+</div>
+<hr />
+<p>
+  Thanks you message, feedback, questions or suggestions, someone form our team
+  will review your email and respond as soon as possible.
+</p>
+<hr />
+{% endif %}

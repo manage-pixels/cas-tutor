@@ -1,2 +1,42 @@
 @use '@shawnsandy/first-paint/src/components/reset.scss';
 @use '@shawnsandy/first-paint/src/styles/cover-page.scss';
+
+header {
+  background-image: url("images/frustratedcover.png") !important;
+  width: 100vw !important;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  [role="banner"] {
+    width: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: calc(0rem / 16) 0;
+
+    &-content {
+      background-color: rgba(255, 255, 255, 0.699);
+      padding: calc(30rem / 16);
+      // position: absolute;
+      // bottom: 0;
+      // max-width: 100%;
+      width: 60%;
+
+      h3 {
+        word-break: break-all;
+      }
+
+      @media (max-width: 980px) {
+        width: 100%;
+      }
+    }
+  }
+}
