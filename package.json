@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "startup": "run-p serve watch:*",
-    "start": "run-s trash scss js && run-p watch:* 11ty",
+    "start": "run-s scss js && run-p watch:* 11ty",
     "serve": "eleventy --serve --incremental",
     "11ty": "eleventy --serve",
     "build-11ty": "eleventy",
@@ -51,7 +51,7 @@
     "@11ty/eleventy-img": "^0.9.0",
     "@11ty/eleventy-navigation": "^0.2.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@shawnsandy/ideas": "0.2.3",
+    "@shawnsandy/ideas": "^0.3.1",
     "clean-css": "^5.1.2",
     "dotenv": "^10.0.0",
     "html-minifier": "^4.0.0",

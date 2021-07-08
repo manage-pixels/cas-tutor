@@ -24,7 +24,7 @@
     {% set css %} {% include "src/css/critical.css" %} {% endset %}
     <!-- feed it through our cssmin filter to minify -->
     <style>
-      {{ css | cssmin | safe }}
+      {{css | cssmin | safe}}
     </style>
     <!-- custom stylesheets -->
     <link
@@ -53,7 +53,9 @@
     <!-- nav -->
     {% include "partials/nav.njk" %} {% endblock %}
     <!-- cover -->
-    <header>{% block cover %} {% endblock %}</header>
+    <header class="page-{{ page.fileSlug or 'home' }} main_banner">
+      {% block cover %}{% endblock %}
+    </header>
     <!-- content -->
     {% block content %}
     {{ content | safe }}
@@ -64,6 +66,7 @@
     <!-- scripts - replaced jquery with vue -->
     <!-- scripts - replaced jquery with vue -->
     {% for js in metadata.scripts %}
+    <div id="fb-root"></div>
     <script src="{{ js }}"></script>
     {% endfor %}
     <!--  -->
@@ -76,5 +79,25 @@
     {% endfor %} {% endif %}
     <!-- recaptcha -->
     {{ recaptcha or "no-captcha" }}
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "106810984626293");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
   </body>
 </html>

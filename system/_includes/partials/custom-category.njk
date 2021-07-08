@@ -1,0 +1,20 @@
+<div role="list">
+  {% for content in collections["Volunteers"] | reverse %}
+    <div role="listitem">
+      <article>
+        {% if content.data.image %}
+          <img src="/images/{{ content.data.image }}"/>
+        {% endif %}
+        <h4 id="{{ content.data.title | slug }}">
+          <a href="{{ content.url }}">{{ content.data.title }}</a>
+        </h4>
+        <p>{{ content.data.summary }}</p>
+        <footer>
+          <a href="{{ content.url }}" role="button">
+            <em>Continue reading</em>
+          </a>
+        </footer>
+      </article>
+    </div>
+  {% endfor %}
+</div>
