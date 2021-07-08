@@ -6,90 +6,98 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-/>
+    />
     <script
       src="https://kit.fontawesome.com/e2ffdf4c70.js"
       crossorigin="anonymous"
     ></script>
 
-    <meta name="description" content="{{ settings.description }}"/>
+    <meta name="description" content="{{ settings.description }}" />
     {% block head %}
-      <title>{{ settings.title }} | {{ title }}</title>
-      <!-- load the critical styles inline -->
-      {% set css %}
-      {% include "src/css/critical.css" %}
-      {% endset %}
-      <!-- feed it through our cssmin filter to minify -->
-      <style>
-        {{css | cssmin | safe}}
-      </style>
-      <!-- custom stylesheets -->
-      <link
+    <title>{{ settings.title }} | {{ title }}</title>
+    <!-- load the critical styles inline -->
+    {% set css %} {% include "src/css/critical.css" %} {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{css | cssmin | safe}}
+    </style>
+    <!-- custom stylesheets -->
+    <link
       rel="stylesheet"
       href="/css/styles.css"
       rel="stylesheet"
       media="all"
-/>
-      <link
+    />
+    <link
       rel="stylesheet"
       href="/css/elements.css"
       rel="stylesheet"
       media="all"
-/>
-      {% for styles in settings.styles %}
-        <link href="{{ styles }}" rel="stylesheet" media="all"/>
-      {% endfor %}
-      {% if stylesheets %}
-        {% for style in stylesheets %}
-          <link rel="stylesheet" href="{{ style }}" media="all"/>
-        {% endfor %}
-      {% endif %}
-    {% endblock %}
+    />
+    {% for styles in settings.styles %}
+    <link href="{{ styles }}" rel="stylesheet" media="all" />
+    {% endfor %} {% if stylesheets %} {% for style in stylesheets %}
+    <link rel="stylesheet" href="{{ style }}" media="all" />
+    {% endfor %} {% endif %} {% endblock %}
   </head>
 
   <body class="{{ title | slug }}">
     <!-- header -->
     <!-- header -->
     {% block header %}
-      <!-- nav -->
-      {% include "partials/nav.njk" %}
-    {% endblock %}
+    <!-- nav -->
+    {% include "partials/nav.njk" %} {% endblock %}
     <!-- cover -->
-    <header class="page-{{ page.fileSlug or 'home' }} main_banner" >
+    <header class="page-{{ page.fileSlug or 'home' }} main_banner">
       {% block cover %}{% endblock %}
     </header>
     <!-- content -->
     {% block content %}
-      {{ content | safe }}
+    {{ content | safe }}
     {% endblock %}
 
     <!-- footer -->
-    {% block footer %}
-      {% include "partials/footer.njk" %}
-    {% endblock %}
+    {% block footer %} {% include "partials/footer.njk" %} {% endblock %}
     <!-- scripts - replaced jquery with vue -->
     <!-- scripts - replaced jquery with vue -->
     {% for js in metadata.scripts %}
-      <script src="{{ js }}"></script>
+    <div id="fb-root"></div>
+    <script src="{{ js }}"></script>
     {% endfor %}
     <!--  -->
-    {% if scripts %}
-      {% for script in scripts %}
-        <script src="{{ script }}"></script>
-      {% endfor %}
-    {% endif %}
+    {% if scripts %} {% for script in scripts %}
+    <script src="{{ script }}"></script>
+    {% endfor %} {% endif %}
     <!--  -->
-    {% if settings.scripts %}
-      {% for src in settings.scripts %}
-        <script src="{{ src }}"></script>
-      {% endfor %}
-    {% endif %}
+    {% if settings.scripts %} {% for src in settings.scripts %}
+    <script src="{{ src }}"></script>
+    {% endfor %} {% endif %}
     <!-- recaptcha -->
     {{ recaptcha or "no-captcha" }}
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "106810984626293");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
   </body>
 </html>
