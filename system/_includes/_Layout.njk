@@ -53,7 +53,6 @@
 
     <!-- footer -->
 
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
     {% block footer %} {% include "partials/footer.njk" %} {% endblock %}
     <!-- scripts - replaced jquery with vue -->
     <!-- scripts - replaced jquery with vue -->
@@ -69,7 +68,10 @@
     <script src="{{ src }}"></script>
     {% endfor %} {% endif %}
     <!-- recaptcha -->
-
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
     <script>
       var chatbox = document.getElementById("fb-customer-chat");
       chatbox.setAttribute("page_id", "106810984626293");
