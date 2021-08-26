@@ -1,34 +1,27 @@
 <footer role="contentinfo">
-  <section>
-    <div>
-      <h5>
-        <a href="/" aria-label="Site logo">
-          <!-- <img src="/img/fp.svg" alt=""> -->
-          <!-- <span aria-label="logo text">{{ pkg.app.name }}</span> -->
-          {% include 'partials/brand.njk' %}
-        </a>
-      </h5>
-    </div>
+  <section style="text-align: center">
     <div class="social_media">
       <span>
         <ol>
           <li class="icon">
-            <a href="https://www.facebook.com/CASTutors-106810984626293/"  ><img src="/images/fb.png" alt="click here to go to Facebook page"></a>
-            <a href="http://www.instagram.com/castutors"  ><img src="/images/ig.png" alt= "Cick here to find us on Facebook"></a>
-            <a href="https://cas-tutor.netlify.app/contact/" ><img src="/images/email.png" alt="Click here to contacts us"></a>
-          </li>
-        </ol>
-      </span>
-    </div>
-  </section>
-  <hr>
-  <section>
-    <p>
-      Copyright &copy; {{ hlp.11ty.year() }}
-      {{ settings.author.name }} All rights reserved
-    </p>
-  </section>
-  {% if env.node_env == 'development' %}
-    <div style="text-align: center;"></div>
-  {% endif %}
-</footer>
+            <a href="https://www.facebook.com/CASTutors-106810984626293/">
+              <img src="/images/fb.png" alt="click here to go to Facebook page"></a>
+              <a href="#">
+                <img src="/images/ig.png"></a>
+                <a href="#">
+                  <img src="/images/email.png"></a>
+                </li>
+              </ol>
+            </span>
+          </div>
+        </section>
+        <section>
+          <p>
+            Copyright &copy; {{ hlp.11ty.year() }}
+            {{ settings.author.name }} All rights reserved
+          </p>
+        </section>
+        {% if env.node_env == 'development' %}
+          <div style="text-align: center;"></div>
+        {% endif %}
+      </footer>

@@ -1,8 +1,40 @@
 @use '@shawnsandy/first-paint/src/styles/critical.scss';
 
+:root {
+  --pct100: 100%;
+  --pct80: 80%;
+  --pct60: 60%;
+  --pct40: 40%;
+  --pct20: 20%;
+  --pct10: 10%;
+  --pct5: 5%;
+}
+
 a[role="button"] > em,
 .fp-button-link[role="button"] > em {
   background-color: #432f7a !important;
   border-radius: 99rem !important;
   color: #e0f1f1 !important;
+}
+
+nav {
+  z-index: 99;
+}
+
+.back_feature {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  p.feature {
+    flex-grow: 1;
+    text-align: left;
+  }
+  p > a {
+    padding: 1rem;
+    text-align: center;
+    em {
+      min-width: calc(200rem / 16);
+    }
+  }
 }
