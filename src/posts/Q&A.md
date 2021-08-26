@@ -1,5 +1,5 @@
 ---
-image: question.png
+image: QandA.png
 title: Q and A Time!
 author: Shasa Sandy
 summary: Answers to Frequently asked questions
@@ -14,7 +14,7 @@ tags: News
 <ol>
 <li>
 Q. Where is the tutor center located? <br/>
-A. In the media center at Springstead High School.</em></li><br/>
+A. In the media center at Springstead High School for SHS students only, and virtual tutoring is available for all students as an alternative. ></li><br/>
 <li>
 Q. When should I schedule a tutoring session?<br/>
 A. You should schedule a meeting at least a week in advance.
@@ -49,7 +49,7 @@ Q. Can I have a set weekly appointment?<br/>
 A. Sessions can be scheduled up to a week in advance.</li><br/>
 <li>
 Q. What times are tutors available for face to face at Springstead?<br/>
-A. Tutors are available during Flex 8th period, or for an hour after school.
+A. Tutors are available for an hour after school and on weekends.
 </li><br/>
 <li>
 Q. What options are available to online students?<br/>
