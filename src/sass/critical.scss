@@ -38,7 +38,7 @@ nav {
     text-align: center;
     min-width: 50%;
     em {
-      min-width: 100%;
+      min-width: calc(200rem / 16);
     }
   }
 }
