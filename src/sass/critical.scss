@@ -23,7 +23,11 @@ nav {
 
 .back_feature {
   padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
   p.feature {
+    flex-grow: 1;
     text-align: left;
   }
   p > a {
