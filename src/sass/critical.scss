@@ -26,15 +26,20 @@ nav {
   display: flex;
   flex-direction: column;
 
-  p.feature {
-    flex-grow: 1;
-    text-align: left;
-  }
   p > a {
     padding: 1rem;
     text-align: center;
+    min-width: 50%;
     em {
-      min-width: calc(200rem / 16);
+      min-width: 50%;
+    }
+  }
+}
+
+main {
+  article {
+    img {
+      max-width: 100%;
     }
   }
 }
