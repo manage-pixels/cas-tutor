@@ -25,13 +25,20 @@ nav {
   padding-top: 2rem;
   display: flex;
   flex-direction: column;
+  h4 {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  p {
+    text-align: left;
+  }
 
   p > a {
     padding: 1rem;
     text-align: center;
     min-width: 50%;
     em {
-      min-width: 50%;
+      min-width: 100%;
     }
   }
 }
