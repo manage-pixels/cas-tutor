@@ -25,6 +25,12 @@ nav {
   padding-top: 2rem;
   display: flex;
   flex-direction: column;
+  [role="listitem"] {
+    .feature-content {
+      flex: 2;
+      // flex-grow: 1;
+    }
+  }
   h4 {
     text-align: center;
     margin-top: 1.5rem;
@@ -43,6 +49,11 @@ nav {
       min-width: calc(250rem / 16);
       min-width: var(--pct100);
     }
+  }
+
+  .feat_icon {
+    width: 100px;
+    height: auto;
   }
 }
 
