@@ -1,10 +1,12 @@
 ---
 image: love.png
 title: We love Peer Tutors.
-summary: Benefits of working with peer tutors
+summary: There are so many reasons to love peer tutors, we invite you to learn more about the benefits by click the button below.
 tags: News
 ---
+
 ![cover-img](/images/peertutor.png)
+
 <article class="articles">
 <h4> You should love peer tutors too.</h4>
 
