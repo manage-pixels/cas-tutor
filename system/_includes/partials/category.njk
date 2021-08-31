@@ -1,6 +1,7 @@
 {% for content in collections[category] | reverse %}
-  <article>
-    <img src="/images/{{ content.data.image }}"/>
+<article>
+  {% if content.data.image %}
+  <img src="/images/{{ content.data.image }}" />
   {% endif %}
   <h3 id="{{ content.data.title | slug }}">
     <a href="{{ content.url }}">{{ content.data.title }}</a>
