@@ -2,7 +2,7 @@
 image: QandA.png
 title: Frequently asked Questions
 author: Shasa Sandy
-summary: "Click the Link below to read about commonly asked questions.If you have anymore questions, reach out by chat with or email. "
+summary: "Click the Link below to read about commonly asked questions.If you have more questions, reach out by chat or email. "
 tags: News
 ---
 
