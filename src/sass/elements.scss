@@ -54,10 +54,9 @@ nav {
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
-h4 {
-}
+
 .feature {
   font-size: 0.95rem;
   padding: 1rem;
@@ -79,7 +78,7 @@ h4 {
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 .page-resources.main_banner {
   background-image: url("/images/resource-min.png") !important;
@@ -94,6 +93,24 @@ h4 {
   background-image: url("/images/about_us.hero.png") !important;
   width: 100vw !important;
   height: 25vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.page-operations_officer.main_banner {
+  background-image: url("/images/vol-banner2.jpg") !important;
+  width: 100vw;
+  height: 55vh;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.page-web_admin.main_banner {
+  background-image: url("/images/vol-banner2.jpg") !important;
+  width: 100vw;
+  height: 60vh;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;

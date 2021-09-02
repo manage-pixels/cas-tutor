@@ -1,8 +1,8 @@
 ---
 image: QandA.png
-title: Q and A Time!
+title: Frequently asked Questions
 author: Shasa Sandy
-summary: Answers to Frequently asked questions
+summary: "Click the Link below to read about commonly asked questions.If you have more questions, reach out by chat or email. "
 tags: News
 ---
 
