@@ -17,5 +17,6 @@
   "conventionalCommits.scopes": [
     "scss",
     "custom category page w/grid"
-  ]
+  ],
+  "editor.bracketPairColorization.enabled": true
 }
