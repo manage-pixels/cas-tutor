@@ -4,6 +4,7 @@ const htmlmin = require("html-minifier");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdown = require("@shawnsandy/ideas/lib/markdown");
 const CleanCSS = require("clean-css");
+const img = require("./system/_data/hlp/sharp");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
@@ -38,8 +39,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/admin");
   // eleventyConfig.addPassthroughCopy("./src/robots.txt")
 
-  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
-
   // css-min filter
   eleventyConfig.addFilter("cssmin", (code) => {
     return new CleanCSS({}).minify(code).styles;
@@ -66,10 +65,20 @@ module.exports = function (eleventyConfig) {
     })
   );
 
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+
   eleventyConfig.addPlugin(require("@shawnsandy/ideas/eleventy"));
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(markdown);
+
+  // output the image tag
+  eleventyConfig.addShortcode("img", (src = null) => {
+    return img.imgSrc(src);
+  });
+
+  // outpit img scrollBehavior (to, from, savedPosition) {
+  // eleventyConfig.addPlugin("imgSrc", img.img);
 
   // navigation
   eleventyConfig.addPlugin(eleventyNavigationPlugin);

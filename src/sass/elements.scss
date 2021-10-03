@@ -1,4 +1,4 @@
-@use '@shawnsandy/first-paint/src/components.scss';
+@use "@shawnsandy/first-paint/src/components.scss";
 
 @include components.button-links();
 @include components.form-elements();
@@ -48,9 +48,9 @@ nav {
   }
 }
 .page-home.main_banner {
-  background-image: url("/images/mainbanner-min.png") !important;
+  background-image: url("/images/studentcellphone.webp") !important;
   width: 100vw !important;
-  height: 30vw !important;
+  height: 40vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
