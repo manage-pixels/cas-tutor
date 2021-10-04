@@ -63,7 +63,7 @@ nav {
 }
 .feature_list {
   font-size: 0.85rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 .feat_icon {
   display: block;
@@ -99,16 +99,16 @@ nav {
   background-position: center center;
 }
 .page-operations_officer.main_banner {
-  background-image: url("/images/vol-banner2.jpg") !important;
+  background-image: url("/images/volunteer.webp") !important;
   width: 100vw;
   height: 55vh;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 .page-web_admin.main_banner {
-  background-image: url("/images/vol-banner2.jpg") !important;
+  background-image: url("/images/volunteer.webp") !important;
   width: 100vw;
   height: 60vh;
   margin: auto;
@@ -167,8 +167,14 @@ h6 {
 }
 
 .back-feature {
-  padding-top: 2rem;
+  padding-top: 1rem;
   p.feature {
     text-align: left;
+  }
+  .main-article {
+    padding-top: 1rem;
+    p.feature {
+      text-align: left;
+    }
   }
 }

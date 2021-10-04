@@ -1,5 +1,5 @@
 ---
-image: QandA.png
+image: faq.webp
 title: Frequently asked Questions
 author: Shasa Sandy
 summary: "Click the Link below to read about commonly asked questions.If you have more questions, reach out by chat or email. "
