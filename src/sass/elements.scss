@@ -83,7 +83,7 @@ nav {
 .page-resources.main_banner {
   background-image: url("/images/resource-min.png") !important;
   width: 100vw !important;
-  height: 25vw;
+  height: 30vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,7 +92,7 @@ nav {
 .page-contact.main_banner {
   background-image: url("/images/about_us.hero.png") !important;
   width: 100vw !important;
-  height: 25vw;
+  height: 30vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,21 +100,22 @@ nav {
 }
 .page-operations_officer.main_banner {
   background-image: url("/images/volunteer.webp") !important;
-  width: 100vw;
-  height: 55vh;
+  width: 100vw !important;
+  height: 40vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
 }
+
 .page-web_admin.main_banner {
   background-image: url("/images/volunteer.webp") !important;
-  width: 100vw;
-  height: 60vh;
+  width: 100vw !important;
+  height: 40vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 .about_p {
