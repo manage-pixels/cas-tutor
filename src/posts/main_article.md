@@ -1,15 +1,42 @@
 ---
-title: CasTutor
-image: studentteam.webp
+title: CASTUTOR
 date: 2021-08-01
-summary: "Marketing Manager 2021 to 2022. I am so happy to be managing CASTutors, get know all about be, by clicking the button below."
-tags: castutor
+tags: about
 ---
 
 ###
 
+<section class= "org-feature">
+<div role="list">
+   <div role="listitem" class="mission">
+  <div><img src="/images/vision.webp" alt="picture of bulls eye">
+  <h4 align=center>Vision</h4>
+  </div >
+  <div class="feature-content">
+  <p class="feature">
+During the pandemic we had a vision to help our peers who were struggling with academics. They CASTutor team created a free high quality tutoring service to support Elementary, Middle and High School Students. We made the appointments flexible so to match the needs of students and more importantly they were accessible to everyone. This year we are excited to serve the community for 2021-2022 school year.
+
+  </p>
+  </div>
+   <div role="listitem" class="mission">
+  <div><img src="/images/team.webp" alt="picture of bulls eye">
+  <h4 align=center>Organization</h4>
+  </div >
+  <div class="feature-content">
+  <p class="feature">
+  </p>
+  </div>
+  </div>
+   <div role="listitem" class="mission">
+  <div><img src="/images/support.webp" alt="picture of bulls eye">
+  <h4 align=center>Support</h4>
+  </div >
+  <div class="feature-content">
+  <p class="feature">
+  </p>
+  </div>
+  </div>
+
+  </div>
+
 <section>
-<div ><p><strong>Hello all!</strong> My name is Ginger Yang. I am currently am a student in the International Baccalaureate (IB) Program at Springstead High School and I am delighted to be running CASTutors for the 2021-2022 school year. Throughout my High School Career, I have tutored for a variety of subjects. I have worked with students in all sorts of subjects: Math, Reading, and History. I am familiar with all subject levels up to grade 12. Furthermore, I have worked with a multitude of people throughout my high school career, holding leadership positions in Student Council and several clubs.
-I plan to work in the Government in the future so I feel this organization will broaden my knowledge and provide me with the experience I need. If you have any questions, contact our Social Media @castutors on Instagram and Facebook. I will be more than happy to discuss any comments, concerns, etc. 😊  </p>
-</div>
-</section>

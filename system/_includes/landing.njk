@@ -3,6 +3,8 @@
 {% block cover %} {% include "partials/hero.njk" %} {% endblock %}
 <!-- content -->
 {% block content %} {% include "partials/feature-section.njk" %}
+{%- include "partials/about-category.njk" %}
+
 
 {{ super() }}
 {% endblock %}

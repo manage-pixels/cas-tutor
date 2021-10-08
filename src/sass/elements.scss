@@ -117,7 +117,6 @@ nav {
   background-size: cover;
   background-position: top center;
 }
-
 .about_p {
   font-size-adjust: grey;
   font-size: 0.85rem;
@@ -142,6 +141,13 @@ h6 {
   margin-bottom: 2px;
   box-shadow: 5px 5px #f3f2f7;
   font-size: medium;
+}
+.castutor_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+  max-height: 45px;
 }
 .resource_title {
   text-shadow: 2px 2px #dad3d3;
@@ -169,13 +175,15 @@ h6 {
 
 .back-feature {
   padding-top: 1rem;
+
   p.feature {
     text-align: left;
+    margin-left: auto;
   }
-  .main-article {
-    padding-top: 1rem;
-    p.feature {
-      text-align: left;
-    }
+  .org-feature {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
   }
 }
