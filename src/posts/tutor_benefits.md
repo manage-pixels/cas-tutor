@@ -1,7 +1,7 @@
 ---
 image: tutors.webp
 title: We love Peer Tutors.
-summary: There are so many reasons to love peer tutors, we invite you to learn more about the benefits by click the button below.
+summary: We invite you click the button below, to find out about peer tutors.
 tags: News
 ---
 

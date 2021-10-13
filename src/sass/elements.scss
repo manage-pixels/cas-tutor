@@ -59,6 +59,15 @@ nav {
 
 .feature {
   font-size: 0.95rem;
+  padding-right: 2rem;
+}
+.policy {
+  font-size: 0.95rem;
+  padding-right: 3rem;
+}
+
+.mission {
+  font-size: 0.95rem;
   padding: 1rem;
 }
 .feature_list {
@@ -117,15 +126,14 @@ nav {
   background-size: cover;
   background-position: top center;
 }
+
 .about_p {
   font-size-adjust: grey;
   font-size: 0.85rem;
 }
 
 h6 {
-  font-variant: small-caps;
   font-size: 1rem;
-  text-align: center;
 }
 
 .resource_logo {
@@ -139,8 +147,9 @@ h6 {
   border-radius: 10px;
   margin-top: 2px;
   margin-bottom: 2px;
-  box-shadow: 5px 5px #f3f2f7;
+  box-shadow: 0px 5px 5px 5px #f1f1f1;
   font-size: medium;
+  background-color: #f7f9f9e1;
 }
 .castutor_logo {
   display: block;
@@ -149,9 +158,7 @@ h6 {
   padding-bottom: 3rem;
   max-height: 45px;
 }
-.resource_title {
-  text-shadow: 2px 2px #dad3d3;
-}
+
 .fb-page {
   padding-bottom: 1rem;
 }

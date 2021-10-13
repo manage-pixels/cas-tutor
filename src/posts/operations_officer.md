@@ -2,7 +2,7 @@
 title: Ginger Yang
 image: ginger.png
 date: 2021-08-01
-summary: "Marketing Manager 2021 to 2022. I am so happy to be managing CASTutors, get know all about be, by clicking the button below."
+summary: "Marketing Manager 2021 to 2022. I am so happy to be part of the team, get to know me by clicking the button below."
 tags: Volunteers
 ---
 
