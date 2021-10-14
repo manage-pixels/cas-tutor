@@ -1,7 +1,7 @@
 ---
-image: love.png
+image: tutors.webp
 title: We love Peer Tutors.
-summary: There are so many reasons to love peer tutors, we invite you to learn more about the benefits by click the button below.
+summary: We invite you click the button below, to find out about peer tutors.
 tags: News
 ---
 
@@ -20,7 +20,7 @@ to navigate the road block along with their tutee.</li><br/>
   Peer tutors have a easier time connecting with their students because they “speak the same language”.
 </li><br/>
 
- <li>Peer tutors serve as role models for their student tutees.</li><br/>
+ <li>Peer tutors serve as a positive role models for their student tutees.</li><br/>
 
 <li>Because your student is working with a peer, he or she may be less anxious, and more comfortable asking questions they may be afraid to ask. Also students may be more forthcoming expressing his difficulties, which will help the tutor address those areas.<br/>
 <li> Students often feel more of a sense of partnership in working with a peer tutor because there is less distance between the tutor and the tutee and may make them feel more in control of their education journey.</li><br/>

@@ -3,6 +3,12 @@
 {% block content %}
 <!--  -->
 <section>
+ {% for content in collections[category]| reverse %}
+  <article>
+    <p>{{ content.data.summary }}</p>
+    <hr />
+  </article>
+  {% endfor %}
   {% for content in collections[category]| reverse %}
   <article>
     <p>{{ content.data.summary }}</p>

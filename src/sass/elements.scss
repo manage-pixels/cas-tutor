@@ -59,11 +59,20 @@ nav {
 
 .feature {
   font-size: 0.95rem;
+  padding-right: 2rem;
+}
+.policy {
+  font-size: 0.95rem;
+  padding-right: 3rem;
+}
+
+.mission {
+  font-size: 0.95rem;
   padding: 1rem;
 }
 .feature_list {
   font-size: 0.85rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 .feat_icon {
   display: block;
@@ -83,7 +92,7 @@ nav {
 .page-resources.main_banner {
   background-image: url("/images/resource-min.png") !important;
   width: 100vw !important;
-  height: 25vw;
+  height: 30vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,29 +101,30 @@ nav {
 .page-contact.main_banner {
   background-image: url("/images/about_us.hero.png") !important;
   width: 100vw !important;
-  height: 25vw;
+  height: 30vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .page-operations_officer.main_banner {
-  background-image: url("/images/vol-banner2.jpg") !important;
-  width: 100vw;
-  height: 55vh;
+  background-image: url("/images/volunteer.webp") !important;
+  width: 100vw !important;
+  height: 40vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
+
 .page-web_admin.main_banner {
-  background-image: url("/images/vol-banner2.jpg") !important;
-  width: 100vw;
-  height: 60vh;
+  background-image: url("/images/volunteer.webp") !important;
+  width: 100vw !important;
+  height: 40vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
 }
 
 .about_p {
@@ -123,9 +133,7 @@ nav {
 }
 
 h6 {
-  font-variant: small-caps;
   font-size: 1rem;
-  text-align: center;
 }
 
 .resource_logo {
@@ -139,12 +147,18 @@ h6 {
   border-radius: 10px;
   margin-top: 2px;
   margin-bottom: 2px;
-  box-shadow: 5px 5px #f3f2f7;
+  box-shadow: 0px 5px 5px 5px #f1f1f1;
   font-size: medium;
+  background-color: #f7f9f9e1;
 }
-.resource_title {
-  text-shadow: 2px 2px #dad3d3;
+.castutor_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+  max-height: 45px;
 }
+
 .fb-page {
   padding-bottom: 1rem;
 }
@@ -167,8 +181,16 @@ h6 {
 }
 
 .back-feature {
-  padding-top: 2rem;
+  padding-top: 1rem;
+
   p.feature {
     text-align: left;
+    margin-left: auto;
+  }
+  .org-feature {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
   }
 }

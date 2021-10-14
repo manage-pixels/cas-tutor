@@ -1,9 +1,15 @@
 {% extends "base.njk" %}
 <!-- cover -->
-{% block cover %} {% include "partials/hero.njk" %} {% endblock %}
+{% block cover %}
+  {% include "partials/hero.njk" %}
+{% endblock %}
 <!-- content -->
-{% block content %} {% include "partials/feature-section.njk" %}
-
-{{ super() }}
+{% block content %}
+  {% include "partials/feature-section.njk" %}
+  <section>
+    {% include "partials/about-category.njk" %}
+    <hr>
+  </section>
+  {{ super() }}
 {% endblock %}
 <!-- sidebar -->
