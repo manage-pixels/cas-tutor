@@ -1,8 +1,9 @@
 ---
-image: QandA.png
+image: faq.webp
+
 title: Frequently asked Questions
 author: Shasa Sandy
-summary: "Click the Link below to read about commonly asked questions.If you have more questions, reach out by chat or email. "
+summary: "Click the Link below to read about commonly asked questions "
 tags: News
 ---
 
@@ -10,11 +11,15 @@ tags: News
 
 <article class="articles">
 <h4>Frequently asked questions</h4>
-<p >
+<p><strong> Below is a list of common questions, if you have more question reach out to us via the app or Contact us page</strong></p>
+<p>
 <ol>
 <li>
+Q. How much does it cost? <br/>
+A. There is no cost for tutoring. Tutors receive volunteer hours for their service and all of them are excited to help. </li><br/>
+<li>
 Q. Where is the tutor center located? <br/>
-A. In the media center at Springstead High School for SHS students only, and virtual tutoring is available for all students as an alternative. ></li><br/>
+A. In the media center at Springstead High School for SHS students only, and virtual tutoring is available for all students as an alternative. </li><br/>
 <li>
 Q. When should I schedule a tutoring session?<br/>
 A. You should schedule a meeting at least a week in advance.

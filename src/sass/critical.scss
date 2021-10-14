@@ -1,4 +1,4 @@
-@use '@shawnsandy/first-paint/src/styles/critical.scss';
+@use "@shawnsandy/first-paint/src/styles/critical.scss";
 
 :root {
   --pct100: 100%;
@@ -19,6 +19,7 @@ a[role="button"] > em,
 
 nav {
   z-index: 99;
+  max-width: 100% !important;
 }
 
 .back_feature {
