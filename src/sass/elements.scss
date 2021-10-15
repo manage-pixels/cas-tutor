@@ -109,8 +109,8 @@ nav {
 }
 .page-operations_officer.main_banner {
   background-image: url("/images/volunteer.webp") !important;
-  width: 100vw !important;
-  height: 40vw !important;
+  width: 75vw !important;
+  height: 25vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,8 +119,8 @@ nav {
 
 .page-web_admin.main_banner {
   background-image: url("/images/volunteer.webp") !important;
-  width: 100vw !important;
-  height: 40vw !important;
+  width: 75vw !important;
+  height: 25vw !important;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,5 +192,12 @@ h6 {
     display: flex;
     flex-direction: column;
     margin-left: auto;
+  }
+  .circletag {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
   }
 }

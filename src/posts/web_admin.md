@@ -1,8 +1,8 @@
 ---
 title: Lila Hinds
 image: lila.png
-summary: " Website Administrator 2021 to 2022. I am so excited to be part of the team, Click the button below for more about me."
-tags: Volunteers
+summary: " Website Administrator 2021 to 2022. I am so excited to volunteer to be part of the team. Click the button below for more about me."
+tags: Management Team
 ---
 
 ### Meet Lila Hinds.
